@@ -7,7 +7,7 @@ import subprocess
 
 #@markdown  Visit http://remotedesktop.google.com/headless and copy the command after Authentication
 
-CRP = "DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AfJohXkHt9GFVE7dBeOq9hfLNvWwpzrzotgyYXS4aybVeo-1tFMoP8VS4z9JZ0qlVHEcDQ" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)" #@param {type:"string"}
+CRP = input("зайдите на сайт https://remotedesktop.google.com/headless, потом жми начать, потом жмите далее, потом жмите авторизовать, потом купируете Debian Linux и вставляете сюда: ") #@param {type:"string"}
 
 #@markdown Enter a Pin (more or equal to 6 digits)
 Pin = 123456 #@param {type: "integer"}
