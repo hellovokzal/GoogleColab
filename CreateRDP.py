@@ -7,7 +7,7 @@ import subprocess
 
 #@markdown  Visit http://remotedesktop.google.com/headless and copy the command after Authentication
 
-CRP = input("зайдите на сайт https://remotedesktop.google.com/headless, потом жмите начать, потом жмите далее, потом жмите авторизовать, потом купируете Debian Linux и вставляете сюда: ") #@param {type:"string"}
+CRP = input("зайдите на сайт https://remotedesktop.google.com/headless, потом жмите начать, потом жмите далее, потом жмите авторизовать, потом купируете, где Debian Linux и вставляете сюда: ") #@param {type:"string"}
 
 #@markdown Enter a Pin (more or equal to 6 digits)
 Pin = 123456 #@param {type: "integer"}
